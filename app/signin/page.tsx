@@ -1,11 +1,12 @@
 import BackgroundPane from '@/components/BackgroundPane';
+import Form from '@/components/Form';
 
-const pages = () => {
+const Signin = () => {
   return (
     <BackgroundPane className="w-full h-full flex items-center justify-center shadow-xl border border-zinc-600">
-      sign
+      <Form mode="signin" />
     </BackgroundPane>
   );
 };
 
-export default pages;
+export default Signin;

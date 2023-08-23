@@ -2,6 +2,7 @@ import BackgroundPane from '@/components/BackgroundPane';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Providers from '@/components/Providers';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="h-screen w-screen p-5 rainbow_bg">{children}</body>
+      <body className="h-screen w-screen p-4 rainbow_bg">{children}</body>
     </html>
   );
 }
